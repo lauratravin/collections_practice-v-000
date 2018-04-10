@@ -38,6 +38,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-    newarray = []
+
      array.find_all {|name| name[0] ==  "a"}
 end
