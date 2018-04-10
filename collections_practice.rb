@@ -8,4 +8,4 @@ end
 def sort_array_desc(array)
   newarray = []
   newarray =  array.sort.reverse
-end  
+end
