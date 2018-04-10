@@ -17,7 +17,7 @@ end
 
 
 def swap_elements(arrays)
-
+   last = ""
    last =  array[-1]
    array[-1] = array[-2]
    array[-2] = last
