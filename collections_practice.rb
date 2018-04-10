@@ -37,5 +37,7 @@ def kesha_maker(array)
     }
 end
 
-def find_a()
+def find_a(array)
+    newarray = []
+    newarray << array.find_all {|name| name[0] = "a"}
 end
