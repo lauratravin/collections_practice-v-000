@@ -36,3 +36,6 @@ def kesha_maker(array)
       newarray << name
     }
 end
+
+def find_a
+end  
