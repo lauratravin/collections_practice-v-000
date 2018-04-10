@@ -41,3 +41,7 @@ def find_a(array)
 
      array.find_all {|name| name[0] ==  "a"}
 end
+
+def sum_array(array)
+   array.inject
+end
