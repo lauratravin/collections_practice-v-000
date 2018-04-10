@@ -28,3 +28,10 @@ def reverse_array(array)
   newarray = []
   newarray = array.reverse
 end
+
+def kesha_maker(array)
+  array.each {|name|
+      name[2] = "$"
+      newarray << name
+    }
+end
