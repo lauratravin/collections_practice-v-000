@@ -39,5 +39,5 @@ end
 
 def find_a(array)
     newarray = []
-    newarray << array.find_all {|name| name[0] ==  "a"}
+     array.find_all {|name| name[0] ==  "a"}
 end
