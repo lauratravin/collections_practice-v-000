@@ -50,6 +50,8 @@ def add_s(array)
   array.each_with_index.collect {|name, idx|
             if idx != 1
               name = "#{name}s"
+            else
+              name
             end
   }
 end
